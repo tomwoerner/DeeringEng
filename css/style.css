@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+.logo h1 {
+    margin: 5px 0;
+    text-align: center;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.social-media, .dark-mode {
+    display: flex;
+    align-items: center;
+}
+.dark-mode img {
+    cursor: pointer;
+}
