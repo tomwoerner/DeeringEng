@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimate Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #005bb5;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 4rem;
+            margin-bottom: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Estimate Services</h1>
+</header>
+
+<nav>
+
+</nav>
+
+<section id="about" class="hero">
+    <h2>About Us</h2>
+    <p>We specialize in providing accurate and timely estimates for your projects. Our team ensures clarity and precision in all our services.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Project Cost Estimation</li>
+        <li>Material Estimation</li>
+        <li>Timeframe Assessment</li>
+        <li>Value Engineering</li>
+        <li>Cost Estimating</li>
+        <li>Storm Drainage</li>
+        <li>3D Modeling</li>
+        <li>Earthwork Reports</li>
+        <li>Detailed Engineering Design</li>
+        <li>HCSS HeavyBid Import</li>
+        <li>Change Order Analysis</li>
+        <li>Water & Wastewater Treatment</li>
+        <li>Storm & Sanitary Sewer Design</li>
+        <li>Residential and Commercial Design</li>
+    </ul>
+</section>
+
+<section id="estimate">
+    <h2>Request an Estimate</h2>
+    <p>Fill out the form below to get a personalized estimate for your project.</p>
+    <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="projectDetails" placeholder="Describe your project" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Deering Engineering. All rights reserved.
+</footer>
+
+</body>
+</html>
